@@ -1,0 +1,36 @@
+nav {
+    /* padding: 50px; */
+    background-color: red;
+}
+
+#navbar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 55px;
+    z-index: 1000;
+}
+
+#navbar.is-hidden {
+    /* transform: translate(0, - 55px - 10);
+    transition: transform 1s; */
+    /* visibility: hidden; */
+    top: -60px;
+    transition: .5s all ease;
+  }
+
+#navbar.is-visible {
+    /* transform: translate(0, 0);
+    transition: transform 1s; */
+    top: 0;
+    transition: .5s all ease;
+    /* visibility: visible; */
+  }
+
+
+
+  .content p {
+    line-height: 45px;
+    font-size: 25px;
+  }
